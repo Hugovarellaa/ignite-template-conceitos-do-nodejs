@@ -88,6 +88,9 @@ app.patch("/todos/:id/done", checksExistsUserAccount,(request, response) => {
 
   const checkTodo = user.todos.find((todo) => todo.id === id);
   
+  if (!checkTodo) {
+    return response.status(404).json({ error: "Todo not found" });
+  }
 
   checkTodo.done = true
   return response.json(checkTodo);
