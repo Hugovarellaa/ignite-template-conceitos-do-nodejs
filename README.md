@@ -30,7 +30,7 @@ Tudo isso para cada usuário em específico (o `username` será passado pelo hea
 
 <br/>
 
-## 🖼️ Template do projeto?
+## 🖼️ Template do projeto
 
 - [Template do projeto original para clone](https://github.com/rocketseat-education/ignite-template-conceitos-do-nodejs)
 
